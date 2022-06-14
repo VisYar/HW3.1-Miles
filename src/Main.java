@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int ticketPrise = 5000;
+        float ticketPrise = 5_000.25F;
         int milePrise = 20;
-        int miles = ticketPrise / milePrise;
+        int miles = (int)ticketPrise / milePrise;
         System.out.println("Вам будет начислено " + miles + " миль за купленный билет.");
     }
 }
